@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="journalStyleSheet.css">
+        <title>Student Journal</title>
+        <script src="journalJavascript.js"></script>
+    </head>
+<body>
+
+<!-- Header, always visible -->
+<div class = "header">
+    <h1><span id = "my_name" >Collin Caple's</span> Student Journal</h1>
+    <h3>Illustrations by John James Audubon from his Birds of America, used with<img src = "cco.png" id = "copyright_license"></h3>
+    <h4><i>"The lines of national borders on maps are artificial constructs, <br>as unnatural to us as they are to <div class = "bird_hover">birds<span id = "species">Carolina Parakeet</span></div> flying overhead." - Mohsin Hamid</i></h4>
+</div>
+
+<!-- Tab Selectors, always visible-->
+<div class = "tab_selectors">
+    <button class = "tab_buttons" onclick = "openTab(event, 'entries')">Entries</button>
+    <button class = "tab_buttons" onclick = "openTab(event, 'motivation_board')">Motivation Board</button>
+    <button class = "tab_buttons" onclick = "openTab(event, 'final_presentation')">Final Presentation</button>
+</div>
+
+<!-- Entries -->
+<div id = "entries" class = "tab_content">
+    <ol>
+        <li><a href= "" title = "Student Journal Entry 1">"<i>The Intl Diffusion of Metal</i>" January 17</a></li>
+    </ol>
+</div>
+
+<!-- Motivation Board -->
+<div id = "motivation_board" class = "tab_content">
+    <img id = "chimpsky" src = "do_it_for_nim_chimpsky.png">
+</div>
+
+</body>
+</html> 

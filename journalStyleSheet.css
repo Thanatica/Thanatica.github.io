@@ -1,0 +1,123 @@
+body {
+    background-image: url("carolinaParakeets.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background: rgba(100, 110, 120, 0.6);
+    border: 10px solid rgba(234, 180, 100, 0.8);
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    line-height: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tab_buttons {
+    text-align: center;
+    background: rgba(100, 110, 120, 0.6);
+    border: 5px solid rgba(234, 180, 100, 0.8);
+    border-radius: 20px;
+    height: 40px;
+    width: 33%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tab_buttons:hover {
+    text-align: center;
+    background: rgb(100, 110, 120);
+    border: 5px solid rgba(234, 180, 100, 0.8);
+    border-radius: 20px;
+}
+
+.tab_selectors {
+    width: 60%;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h4 {
+    line-height: 20px;
+}
+
+.tab_content {
+    overflow-y: auto;
+}
+
+.tab_selectors button.active {
+    background-color: #ccc;
+  }
+
+.tab_content {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    padding: 6px;
+}
+
+.bird_hover {
+    display: inline;
+    color: rgb(234, 180, 100);
+    text-decoration: underline;
+}
+
+.bird_hover:hover {
+    display: inline;
+    color: rgb(167, 117, 77);
+    cursor: crosshair;
+    text-decoration: underline;
+}
+
+#chimpsky {
+    width: 40%;
+    text-align: center;
+    border: 5px solid rgba(234, 180, 100, 0.8);
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#copyright_license {
+    display: inline;
+    margin-left: 10px;
+}
+
+#species {
+    background: rgb(100, 110, 120);
+    border: 5px solid rgba(234, 180, 100, 0.8);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    visibility: hidden;
+    position: absolute;
+    top:18%;
+    left: 46.5%;
+}
+
+.bird_hover:hover #species{
+    visibility: visible;
+}
+
+#entries {
+    width: 60%;
+    background: rgba(100, 110, 120, 0.6);
+    border: 5px solid rgba(234, 180, 100, 0.8);
+    border-radius: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
