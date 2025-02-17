@@ -1,265 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Tsyanfan Project</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css\main.min.css" rel="stylesheet">
-  <link href="css\main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
-</head>
-<body>
-<div class="container-fluid p-3 bg-primary text-white text-center">
-  <h1 class="display-1">The Tsyanfan People</h1>
-  <h2>A Worldbuilding & Conlang Project</h2>
-</div>
-
-<div class="container-fluid p-0">
-  <nav class="navbar navbar navbar-light bg-secondary">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand"><img src="assets/banners/tsaimer_banner.png" height="30px"></a>
-        <ul class="nav nav-pills justify-content-center mg-5">
-            <li class="nav-item p-3"><a href="#home" class="nav-link active" data-bs-toggle="tab"><i class="bi bi-house-heart-fill"></i> Home</a></li>
-            <li class="nav-item p-3"><a href="#phonology" class="nav-link" data-bs-toggle="tab"><i class="bi bi-volume-up-fill"></i> Phonology</a></li>
-            <li class="nav-item p-3"><a href="#alphabet" class="nav-link" data-bs-toggle="tab"><i class="bi bi-alphabet-uppercase"></i> Alphabet*</a></li>
-            <li class="nav-item p-3"><a href="#grammar" class="nav-link" data-bs-toggle="tab"><i class="bi bi-pencil-fill"></i> Grammar</a></li>
-            <li>
-              <form class="p-3">
-                <div class="input-group">                    
-                  <input type="text" class="form-control" placeholder="Search">
-                  <button type="button" class="btn btn-primary"><i class="bi-search"></i></button>
-                </div>
-              </form>
-            </li>
-        </ul>
-      </div>
-  </nav>
-</div>
-
-<div class="tab-content">
-  <div class="tab-pane fade show active" id="home">
-    <p>Hi! Press the other tabs</p>
-  </div>
-  <div class="tab-pane fade" id="phonology">
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-lg">
-          <table class="table table-striped">
-            <thead>
-            <tr>
-                <th colspan="8">Consonants</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <th></th>
-              <th></th>
-              <th scope="col">Labial</th>
-              <th scope="col">Dental</th>
-              <th scope="col">Alveolar</th>
-              <th scope="col">Palatal</th>
-              <th scope="col">Velar</th>
-              <th scope="col">Glottal</th>
-            </tr>
-            <tr>
-                <th scope="row">Nasal</th>
-                <td>Voiced</t>
-                <td>&#109;</sup></td>
-                <td>&#110;</sup></td>
-                <td></td>
-                <td>&#626;</sup></td>
-                <td>&#627;</sup></td>
-                <td></td>
-            </tr>
-            <tr>
-              <th rowspan="3" scope="row">Stop</th>
-              <td>Preaspirated</td>
-              <td>&#688;&#112;</sup></i></td>
-              <td>&#688;&#116;</sup></td>
-              <td></td>
-              <td></td>
-              <td>&#688;&#107;</sup></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Voiceless</td>
-              <td>&#112;</sup></td>
-              <td>&#116;</sup></td>
-              <td></td>
-              <td></td>
-              <td>&#107;</sup></td>
-              <td>&#660;</i></td>
-            </tr>
-            <tr>
-              <td>Voiced</td>
-              <td>&#98;</sup></td>
-              <td>&#100;</sup></td>
-              <td></td>
-              <td></td>
-              <td>&#103;</sup></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th rowspan="3" scope="row">Affricate</th>
-              <td>Preaspirated</td>
-              <td></td>
-              <td></td>
-              <td>&#688;&#678;</i></td>
-              <td>&#688;&#679;</i></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Voiceless</td>
-              <td></td>
-              <td></td>
-              <td>&#678;</i></td>
-              <td>&#679;</i></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Voiced</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>&#676;</i></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th rowspan="3" scope="row" >Fricative</th>
-              <td>Preaspirated</td>
-              <td>&#688;&#102;</i></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Voiceless</td>
-              <td>&#102;</i></td>
-              <td>&#115;&#827;</i></td>
-              <td>&#115;&#826;</i></td>
-              <td>&#643;</i></td>
-              <td>&#120;</i></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Voiced</td>
-              <td>&#118;</i></td>
-              <td></td>
-              <td></td>
-              <td>&#658;</i></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row" >Approximant</th>
-              <td>Voiced</td>
-              <td></td>
-              <td>&#108;</td>
-              <td></td>
-              <td>&#106;</i></td>
-              <td></td>
-              <td></td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-sm">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th colspan="4" scope="row">Vowels</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th></th>
-                <th>Front</th>
-                <th>Central</th>
-                <th>Back</th>
-              </tr>
-              <tr>
-                <th>Close</th>
-                <td>&#105;</td>
-                <td></td>
-                <td>&#117;</td>
-              </tr>
-              <tr>
-                <th>Near-Close</th>
-                <td>&#101;</td>
-                <td></td>
-                <td>&#111;</td>
-              </tr>
-              <tr>
-                <th>Mid</th>
-                <td></td>
-                <td>&#601;</td>
-                <td></td>
-              </tr>
-              <tr>
-                <th>Open</th>
-                <td>&#97;</td>
-                <td></td>
-                <td>&#594;</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savilsh</title>
+    <link rel="stylesheet" href="main_css.css">
+  </head>
+  <body>
+    
+    <div class="title">
+      <img style="float:left;" class="wall_lantern" src="assets/flavor/wall_lantern.gif" width="80px"><img style="float:right;transform: scaleX(-1);" class="wall_lantern" src="assets/flavor/wall_lantern.gif" width="80px">
+      <center>
+      <h1 style="font-size: 50px; margin: 5px"><img width="50px" class="inline_image" style="filter: grayscale(100%);" src="assets/flavor/sparkle_gif.gif">The Savilsh People<img width="50px" style="filter: grayscale(100%);" class="inline_image" src="assets/flavor/sparkle_gif.gif"></h1>
+      <h2 style="font-size: 25px; margin: 5px">A Worldbuilding & Conlang Project</h2>
+      </center>
     </div>
-  </div>
-  <div class="tab-pane fade" id="alphabet">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-2 m-2 p-5 my-4 bg-light rounded-3">
-            <p>hi</p>
-          </div>
-          <div class="col-md-9 m-2 p-5 my-4 bg-light rounded-3">
-            <h4 class="text-center">* Not an alphabet! </h4>
-            <h2 class="text-center">The Tsyanfan Abjad</h2>
-            <hr style="height:4px;border-width:0;color:rgb(74, 79, 143);background-color:rgb(74, 79, 143)">
-            <h5 class="display-7">1. Method</h5>
-            <p>The Tsyanfans's writing system isn't an alphabet. Rather, it is an abjad like Arabic and Hebrew. This means that their writing system does not require the vowels to be written, and often times, only the consonants are written while the vowels are inferred. Unlike most modern abjad writing systems, the Tsyanfans's writing system is a <em>pure</em> abjad, meaning there are no optional vowels or vowel diacritics which aid the reader. There are absolutely no written representations of for their vowels.</p>
-            <p>For the Tsyanfan people, while it can be challenging when two dialects clash, this system of writing has been reaffirmed over the centuries of linguistic evolution by the practical methods by which they write. Instead of chiseling stone, carving wood, or inking paper, they use nails (called "shung" or <img style="height:15px" src="assets/letters/sh.png"><img style="height:15px" src="assets/letters/ng.png">) hammered into a piece of wood and wrap string around them made of different materials depending on which cultural regions of Tsyanf the author originates. The string could be wool, sinew, or rope; it just had to be a fitting width for the dimensions of the 3x3 grid that would contain a single letter. Symbols are created through the patterns created by the string connecting from nail to nail.</p>
-            <div class="container m-2">
-              <div class="row justify-content-evenly bg-white rounded-3">
-                <div class="col-2 m-2">
-                  <img style="height:150px" src="assets/letters/3x3.png">
-                </div>
-                <div class="col-2 m-2">
-                  <img style="height:150px" src="assets/letters/arrow.png">
-                </div>
-                <div class="col-2 m-2">
-                  <img style="height:150px" src="assets/letters/3x31.png">
-                </div>
-                <div class="col-2 m-2">
-                  <img style="height:150px" src="assets/letters/3x32.png">
-                </div>
-              </div>
-            </div>
-            <p>To safe space and nails, the letters may be written on top of each other on the same grid, but this is usually saved for really short words or artistic pieces. More often than not, the borders of each 3x3 grid overlap each other to create a unified string of lines. People who grew up with this system can intuit almost instantly the amount of nails and length of string required for the sentences they want to write.</p>
-            <div class="container m-2">
-              <div class="row justify-content-evenly bg-white rounded-3">
-                <div class="col-2">
-                  <img style="height:150px" src="assets/letters/3x33.png">
-                </div>
-                <div class="col-2">
-                  <img style="height:150px" src="assets/letters/0r.png">
-                </div>
-                <div class="col-4">
-                  <img style="height:150px" src="assets/letters/together.png">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-</body>
+
+    <div class="navbar">
+      <center>
+      <ul>
+        <li ><a href="index.html"><img width="20px" src="assets/flavor/crow_gif.gif"> Home</a></li>
+        <li><a href="phonology.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Phonology</a></li>
+        <li><a href="alphabet.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Alphabet*</a></li>
+        <li><a href="numerals.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Numbers</a></li>
+        <li><a href="grammar.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Grammar</a></li>
+        <li><a href="dictionary.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Dictionary</a></li>
+        <li><a href="idioms.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Idioms</a></li>
+        <li><a href="geography.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Geography</a></li>
+        <li><a href="society.html"><img style="margin-left: 15px;" width="20px" src="assets/flavor/crow_gif.gif"> Society</a></li>       
+      </ul>
+      </center>
+    </div>
+
+    <div class="content">
+      <center>
+      <p style="font-size:50px; margin: 5px;"><em>Home</em></p>
+      <img src="assets/flavor/divider.png">
+      <p style="font-size:30px; margin: 3px; margin-top: 3px;">1. Background</p>
+      </center>
+      <p style="margin:35px; margin-top: 3px;"><img src="assets/flavor/lantern_icon.gif" style="margin-right: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p style="margin:35px; margin-top: 3px;"><img src="assets/flavor/lantern_icon.gif" style="margin-right: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p style="margin:35px; margin-top: 3px;"><img src="assets/flavor/lantern_icon.gif" style="margin-right: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </body>
 </html>
